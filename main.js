@@ -4,7 +4,10 @@ console.log(botoes);
 for (let i=0; i<= botoes.length i++);{
  
  botoes[i].onclick=function(){
-    botoes[i].classList.add("ativo");
+   for (let i=0; i<= botoes.length; j++);{
+  
+    botoes[i].classList.remove("ativo");
  }
-console.log(botoes[i]);
+  botoes[i].classList.add("ativo");
+}
 }
